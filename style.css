@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&family=Rubik+Wet+Paint&display=swap');
+</style>
+
+:root {
+  --cor-0: #08090D;
+  --cor-1: #1A1E26;
+  --cor-2: #343A40;
+  --cor-3: #6E7371;
+  --cor-4: #A1A69C;
+  --cor-destaque: #B5212B;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container{
+  background-image: url(./imagens/capaRE.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav{
+  
+}
