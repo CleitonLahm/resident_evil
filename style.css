@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&family=Rubik+Wet+Paint&display=swap');
-</style>
+/* font-family: 'Quantico', sans-serif;
+font-family: 'Rubik Wet Paint', cursive; */
 
 :root {
   --cor-0: #08090D;
@@ -18,7 +19,11 @@
   list-style: none;
 }
 
+img{
+  max-width: 100%;
+}
 .container{
+  position: relative;
   background-image: url(./imagens/capaRE.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,5 +32,31 @@
 }
 
 nav{
+  display: flex;
+  justify-content: flex-end;
   
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a{
+  margin-right: 30px;
+  color: var(--cor-4);
+  font-family: 'Rubik Wet Paint', cursive;
+  font-size: 24px;
+}
+
+.compativeis ul{
+  position: absolute;
+  bottom: 220px;
+  left: 140px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.compativeis img{
+  width: 60px;
 }
